@@ -24,3 +24,10 @@ You have now registered a sensor in Autumn all we need to do now is get your Ard
 
 There are comments in the code to help you find the different parts that you need to update. The main parts are to add your API Key, Organisation Key and Element ID.
 
+To connect the DHT22 to Ardunio we are going to use a 4 jumper leads, either a breadboard, electrical tape or solder. Connect them together in this pattern...
+
+Connecting the 5v power to pin 1 on the DHT22, ground on pin 4, pin 2 to digital input 3. Then the resister between pins 1 and 2.
+
+With a breadboard you can make this layout look nice.
+
+Once you have this all hooked up. connect your ethernet cable, upload your code to your arduino and as long as everything goes to plan you will receive data in Autumn.
