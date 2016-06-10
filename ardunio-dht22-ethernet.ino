@@ -77,8 +77,8 @@ void send_data_sensor(){
     client.print(server);    
     client.print(F("\r\n"));
    // client.print(F("Authorization: Basic " USR_PASS "\r\n"));    // old type   
-    client.print(F("Email-hash: " EMAIL_HASH_SENSOR1 "\r\n"));
-    client.print(F("Api-key: " API_KEY_SENSOR1 "\r\n"));
+    client.print(F("ORGANIZATION-ID: " EMAIL_HASH_SENSOR1 "\r\n"));
+    client.print(F("ORGANIZATION-API-KEY: " API_KEY_SENSOR1 "\r\n"));
     client.print(F("User-Agent: Arduino_DHT22" "\r\n" ));
     client.print(F("Accept: */*" "\r\n" ));  
     client.print(F("Content-Type: application/vnd.api+json" "\r\n" )); 
@@ -98,8 +98,8 @@ void send_data_sensor(){
     client.print(server);    
     client.print(F("\r\n"));
    // client.print(F("Authorization: Basic " USR_PASS "\r\n"));       // old type  
-    client.print(F("Email-hash: " EMAIL_HASH_SENSOR2 "\r\n"));
-    client.print(F("Api-key: " API_KEY_SENSOR2 "\r\n"));     
+    client.print(F("ORGANIZATION-ID: " EMAIL_HASH_SENSOR2 "\r\n"));
+    client.print(F("ORGANIZATION-API-KEY: " API_KEY_SENSOR2 "\r\n"));     
     client.print(F("User-Agent: Arduino_DHT22" "\r\n" ));
     client.print(F("Accept: */*" "\r\n" ));  
     client.print(F("Content-Type: application/vnd.api+json" "\r\n" )); 
