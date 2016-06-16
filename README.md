@@ -1,4 +1,4 @@
-# ardunio-dht22-ethernet
+# Ardunio Humidity &amp; Temperature Sensor - Ethernet
 Ardunio Humidity &amp; Temperature Sensor - Ethernet
 
 Demo script
